@@ -20,7 +20,7 @@ This mobile-first solution reimagines image editing by integrating specialized A
 ### *(Inpaint, Erase, Move)*
 
 ## Pipeline
-![Feature1 Pipeline](assets/feature_1.png)
+![Feature1 Pipeline](assets/feature1.png)
 
 Move
 Uses DDIM inversion to extract the object’s latent, shifts it using attention memory, and decodes it back to the image.
@@ -112,7 +112,7 @@ Dragon Diffusion
 - FastAPI
 - Flutter
 - Docker
-- - PyTorch
+- PyTorch
 - Hugging Face Transformers
 - Diffusers
 - BitsAndBytes (8-bit / 4-bit quantization)
