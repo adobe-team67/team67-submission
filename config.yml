@@ -1,0 +1,48 @@
+
+
+models:
+  flux_kontext:
+    name: "FLUX.1-Kontext-dev"
+  
+      offloading:
+      transformer: true
+      vae: true
+      text_encoders: true
+    defaults:
+      num_inference_steps: 10
+      seed: 42
+
+  qwen2_vl_7b:
+    name: "Qwen2-VL-3B-Instruct"
+    classes:
+      model: "Qwen2.5VLForConditionalGeneration"
+      processor: "AutoProcessor"
+    device_map: "${cpu}"
+
+  kandinsky_inpainting:
+    name: "Kandinsky Inpainting"
+    repo_id: "${KANDINSKY_REPO:kandinsky-community/kandinsky-2-2}"
+    pipeline: "${KANDINSKY_PIPELINE:KandinskyInpaintPipeline}"
+    dtype: "${KANDINSKY_DTYPE:float16}"
+    variant: "${KANDINSKY_VARIANT:fp16}"
+    cpu_offload: ${KANDINSKY_CPU_OFFLOAD:true}
+    xformers_attention: ${KANDINSKY_XFORMERS:true}
+    seed: ${KANDINSKY_SEED:92}
+
+  objectclear:
+    name: "ObjectClear"
+    repo_id: "jixin0101/ObjectClear"
+    dtype: "${OBJECTCLEAR_DTYPE:fp16}"
+    apply_attention_guided_fusion: ${OBJECTCLEAR_USE_AGF:true}
+    cache_dir: "${OBJECTCLEAR_CACHE_DIR:}"
+    seed: ${OBJECTCLEAR_SEED:42}
+    device: "${OBJECTCLEAR_DEVICE:cuda}"
+
+  dragon_diffusion:
+    name: "DragonDiffusion"
+    sd_base_repo: "${DRAGON_SD_REPO:runwayml/stable-diffusion-v1-5}"
+    pipeline_class: "DragonDiffusion.src.models.dragondiff.DragonPipeline"
+    precision: "${DRAGON_PRECISION:float16}"
+    device: "${DRAGON_DEVICE:cuda}"
+    aux_files:
+      dlib_shape_predictor: "${DLIB_SHAPE_PREDICTOR:models/shape_predictor_68_face_landmarks.dat}"

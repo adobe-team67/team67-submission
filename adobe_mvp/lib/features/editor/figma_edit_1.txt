@@ -1,0 +1,549 @@
+Container(
+  width: 393,
+  height: 852,
+  clipBehavior: Clip.antiAlias,
+  decoration: BoxDecoration(color: const Color(0xFF111111)),
+  child: Stack(
+    children: [
+      Positioned(
+        left: 0,
+        top: 78,
+        child: Container(
+          width: 393,
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 84,
+            children: [
+              Container(
+                width: 24,
+                height: 24,
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(),
+                child: Stack(),
+              ),
+              Container(
+                width: 24,
+                height: 24,
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(),
+                child: Stack(),
+              ),
+              Container(
+                width: 24,
+                height: 24,
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(),
+                child: Stack(),
+              ),
+              Container(
+                width: 24,
+                height: 24,
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(),
+                child: Stack(),
+              ),
+            ],
+          ),
+        ),
+      ),
+      Positioned(
+        left: 42.50,
+        top: 741,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 8),
+          clipBehavior: Clip.antiAlias,
+          decoration: ShapeDecoration(
+            color: const Color(0x7F383737),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(60),
+            ),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 10,
+            children: [
+              Container(
+                width: double.infinity,
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  spacing: 26,
+                  children: [
+                    ConstrainedBox(
+                      constraints: BoxConstraints(minWidth: 36),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          spacing: 8,
+                          children: [
+                            Container(
+                              width: 24,
+                              height: 24,
+                              clipBehavior: Clip.antiAlias,
+                              decoration: BoxDecoration(),
+                              child: Stack(),
+                            ),
+                            Text(
+                              'Edit',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'Adobe Clean',
+                                fontWeight: FontWeight.w500,
+                                height: 1.83,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    ConstrainedBox(
+                      constraints: BoxConstraints(minWidth: 36),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          spacing: 8,
+                          children: [
+                            Container(
+                              width: 24,
+                              height: 24,
+                              clipBehavior: Clip.antiAlias,
+                              decoration: BoxDecoration(),
+                              child: Stack(),
+                            ),
+                            Text(
+                              'Select',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'Adobe Clean',
+                                fontWeight: FontWeight.w500,
+                                height: 1.83,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    ConstrainedBox(
+                      constraints: BoxConstraints(minWidth: 36),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          spacing: 8,
+                          children: [
+                            Text(
+                              'Prompt',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'Adobe Clean',
+                                fontWeight: FontWeight.w500,
+                                height: 1.83,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    ConstrainedBox(
+                      constraints: BoxConstraints(minWidth: 36),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          spacing: 8,
+                          children: [
+                            Container(
+                              width: 24,
+                              height: 24,
+                              clipBehavior: Clip.antiAlias,
+                              decoration: BoxDecoration(),
+                              child: Stack(),
+                            ),
+                            Text(
+                              'Layers',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'Adobe Clean',
+                                fontWeight: FontWeight.w500,
+                                height: 1.83,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+      Positioned(
+        left: 0,
+        top: 851,
+        child: Opacity(
+          opacity: 0,
+          child: Container(
+            padding: const EdgeInsets.only(
+              top: 16,
+              left: 16,
+              right: 16,
+              bottom: 32,
+            ),
+            clipBehavior: Clip.antiAlias,
+            decoration: ShapeDecoration(
+              color: const Color(0xFF1E1E1E),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(30),
+                  topRight: Radius.circular(30),
+                ),
+              ),
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              spacing: 16,
+              children: [
+                Container(
+                  width: 24,
+                  height: 24,
+                  clipBehavior: Clip.antiAlias,
+                  decoration: BoxDecoration(),
+                  child: Stack(),
+                ),
+                Container(
+                  width: 361,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    spacing: 4,
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 2),
+                        clipBehavior: Clip.antiAlias,
+                        decoration: ShapeDecoration(
+                          color: const Color(0xFF383737),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(60),
+                          ),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          spacing: 8,
+                          children: [
+                            Container(
+                              width: 12,
+                              height: 12,
+                              clipBehavior: Clip.antiAlias,
+                              decoration: BoxDecoration(),
+                              child: Stack(),
+                            ),
+                            Text(
+                              'Change the scene to night',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'Adobe Clean',
+                                fontWeight: FontWeight.w400,
+                                height: 1.83,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 2),
+                        clipBehavior: Clip.antiAlias,
+                        decoration: ShapeDecoration(
+                          color: const Color(0xFF383737),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(60),
+                          ),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          spacing: 8,
+                          children: [
+                            Container(
+                              width: 12,
+                              height: 12,
+                              clipBehavior: Clip.antiAlias,
+                              decoration: BoxDecoration(),
+                              child: Stack(),
+                            ),
+                            Text(
+                              'Change Car’s Color to Red',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'Adobe Clean',
+                                fontWeight: FontWeight.w400,
+                                height: 1.83,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  width: 361,
+                  padding: const EdgeInsets.all(16),
+                  clipBehavior: Clip.antiAlias,
+                  decoration: ShapeDecoration(
+                    color: const Color(0xFF4D4B4B),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(60),
+                    ),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    spacing: 10,
+                    children: [
+                      Text(
+                        'Type out the edit you want to perform',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontFamily: 'Adobe Clean',
+                          fontWeight: FontWeight.w500,
+                          height: 1.38,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 81,
+        top: 349,
+        child: Container(
+          width: 231,
+          height: 154,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: NetworkImage("https://placehold.co/231x154"),
+              fit: BoxFit.cover,
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 18,
+        top: 133,
+        child: Container(
+          width: 72,
+          height: 72,
+          padding: const EdgeInsets.all(10),
+          clipBehavior: Clip.antiAlias,
+          decoration: ShapeDecoration(
+            color: const Color(0xFF1E1E1E),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(200),
+            ),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 8,
+            children: [
+              Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                spacing: 4,
+                children: [
+                  Text(
+                    'Stylize',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 10,
+                      fontFamily: 'Adobe Clean',
+                      fontWeight: FontWeight.w500,
+                      height: 2.20,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+      Positioned(
+        left: 303,
+        top: 133,
+        child: Container(
+          width: 72,
+          height: 72,
+          padding: const EdgeInsets.all(20),
+          clipBehavior: Clip.antiAlias,
+          decoration: ShapeDecoration(
+            color: const Color(0xFF1E1E1E),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(200),
+            ),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 8,
+            children: [
+              Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                spacing: 4,
+                children: [
+                  Container(
+                    width: 24,
+                    height: 24,
+                    clipBehavior: Clip.antiAlias,
+                    decoration: BoxDecoration(),
+                    child: Stack(),
+                  ),
+                  Text(
+                    'MagicView',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 10,
+                      fontFamily: 'Adobe Clean',
+                      fontWeight: FontWeight.w500,
+                      height: 2.20,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+      Positioned(
+        left: 0,
+        top: 0,
+        child: Container(
+          width: 393,
+          padding: const EdgeInsets.only(
+            top: 21,
+            left: 16,
+            right: 16,
+            bottom: 19,
+          ),
+          decoration: BoxDecoration(color: const Color(0xFF111111)),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 154,
+            children: [
+              Expanded(
+                child: Container(
+                  height: 22,
+                  padding: const EdgeInsets.only(top: 2),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    spacing: 10,
+                    children: [
+                      Text(
+                        '9:41',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 17,
+                          fontFamily: 'SF Pro',
+                          fontWeight: FontWeight.w590,
+                          height: 1.29,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Container(
+                  height: 22,
+                  padding: const EdgeInsets.only(top: 1),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    spacing: 7,
+                    children: [
+                      Opacity(
+                        opacity: 0.35,
+                        child: Container(
+                          width: 25,
+                          height: 13,
+                          decoration: ShapeDecoration(
+                            shape: RoundedRectangleBorder(
+                              side: BorderSide(width: 1, color: Colors.white),
+                              borderRadius: BorderRadius.circular(4.30),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 21,
+                        height: 9,
+                        decoration: ShapeDecoration(
+                          color: Colors.white,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(2.50),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    ],
+  ),
+)

@@ -1,0 +1,13 @@
+torchvision
+torchaudio
+accelerate
+safetensors
+pillow
+matplotlib
+tqdm
+einops
+
+# xformers
+# diffusers==0.35.1
+# transformers
+# torch

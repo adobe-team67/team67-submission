@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "primary": "#0D47A1",
+    "accent": "#FF6F00",
+    "background": "#F7F8FA",
+    "surface": "#FFFFFF",
+    "onPrimary": "#FFFFFF"
+  },
+  "typography": {
+    "headline": 20,
+    "body": 14
+  }
+}
